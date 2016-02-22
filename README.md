@@ -3,11 +3,9 @@ Raspberry pi http and websocket server for live visualization of FLIR Lepton the
 
 
 Dependencies :
-Requires libpoco 1.6.1 at least  (http://pocoproject.org/download/)
+- Requires libpoco 1.6.1 at least  (http://pocoproject.org/download/)
 
 ... and uses GCC for compilation. Compiler C++11 support is required.
-
-
 
 Compilation (to be done on the raspberry pi) :
 
@@ -15,10 +13,10 @@ Compilation (to be done on the raspberry pi) :
     chmod +x ./compile.sh
     ./compile.sh
 
-...if successful it should generate a binary called 'thermal' in the same folder.
+If successful it should generate a binary called 'thermal' in the same folder.
 
 then just launch the server on the raspberry :
-sudo ./thermal &
+`sudo ./thermal &`
 
 It should start listening on port 80.
 
