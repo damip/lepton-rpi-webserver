@@ -10,9 +10,10 @@ Requires libpoco 1.6.1 at least  (http://pocoproject.org/download/)
 
 
 Compilation (to be done on the raspberry pi) :
-cd [folder with all the files]
-chmod +x ./compile.sh
-./compile.sh
+
+    cd [folder with all the files]
+    chmod +x ./compile.sh
+    ./compile.sh
 
 ...if successful it should generate a binary called 'thermal' in the same folder.
 
